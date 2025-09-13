@@ -46,4 +46,3 @@ gcc otp.c -o otp.exe
 ## Author
 
 Gianmarco Basile
-# OneTimePad
