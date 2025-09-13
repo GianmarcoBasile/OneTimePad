@@ -10,7 +10,6 @@ void encrypt(FILE *original_file, FILE *encrypted_file, FILE *key_file)
 	while((c = fgetc(original_file)) != EOF)
 	{
 		key = rand();
-		printf("%d\n", key);
 		enc = c ^ key;
 		fputc(enc, encrypted_file);
 		fputc(key, key_file);
